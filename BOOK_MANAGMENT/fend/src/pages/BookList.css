@@ -1,0 +1,46 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .book-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .book-list-table {
+    width: 80%; /* Adjust the width as per your design */
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .book-list-table th, .book-list-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .cover-image {
+    width: 80px;
+    height: 120px;
+    margin-right: 15px;
+  }
+  
+  .book-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .book-author {
+    color: #555;
+  }
+  
+  .book-description {
+    margin-top: 5px;
+    color: #777;
+  }
+  

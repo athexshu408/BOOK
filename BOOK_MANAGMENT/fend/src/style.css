@@ -1,0 +1,83 @@
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.books{
+    display: flex;
+    gap:20px
+  
+}
+.book{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: center;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+
+}
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.form{
+    border: none;
+    padding: 10px ;
+    background-color: lightcoral;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+
+}
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: beige;
+}
+.delete{
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(245, 191, 191);
+    color: rgb(242, 100, 100);
+}
+.update{
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(245, 191, 191);
+    color: rgb(139,139,139);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    box-shadow: 1px 1px 3px 3px rgb(61, 60, 60, 0.4);
+    }
+    header.logo{
+    height: 40px;
+    width: 40px;
+    }
+    header .display-menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
